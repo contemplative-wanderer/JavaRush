@@ -12,7 +12,6 @@ public class L0909 {
         }
         String a = "Duck" ;
         String b = "Cat";
-        int c = 5;
         printVK(a);
         L0909.printVK(b);
     }
