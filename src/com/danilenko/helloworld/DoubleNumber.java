@@ -50,9 +50,6 @@ public class DoubleNumber {
             System.out.println("Number " + number1 + " not even");
         }
 
-
-    }
-*/
-
+    }*/
 
 }
