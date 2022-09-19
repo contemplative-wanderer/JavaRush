@@ -8,7 +8,6 @@ public class Horse {
       public Horse(String name) {
           this.name = name;
           this.bd = new Date().toString();
-
       }
 
 
@@ -24,5 +23,5 @@ public class Horse {
     public String toString() {
         return name + "-" + bd;
     }
-    }
+}
 

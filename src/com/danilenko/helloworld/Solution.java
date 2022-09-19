@@ -4,7 +4,7 @@ public class Solution {
 
     public static void main(String[] args) {
         // тип имя = создание объекта
-        Duck duck1 = new Duck("Ga");                      //TODO 1 дак тип пременной = new дает возможность создавать метод под этот класс
+        Duck duck1 = new Duck("Ga");                      // TODO 1 дак тип пременной = new дает возможность создавать метод под этот класс
         Duck duck2 = new Duck("Gy" , "2");
         Duck duck3 = new Duck("Gi ", "5");
         char c = '3';                                           //TODO это (char) примитив из которых состоит String
@@ -24,22 +24,21 @@ public class Solution {
 
     }
 
-
-    public static class Duck {      //TODO создаю класс Duck
+    public static class Duck {      // TODO создаю класс Duck
 
         /* ПЕРЕМЕННАЯ (ПОЛЕ)*/
-        private String name;        //TODO создаю поле (переменную) String с именем "name", приватную
+        private String name;        // TODO создаю поле (переменную) String с именем "name", приватную
 
         /* КОНСТРУКТОР */
-        public Duck(String name) { //TODO конструктор (для задания значения) классу Duck поля String name
+        public Duck(String name) { // TODO конструктор (для задания значения) классу Duck поля String name
             this.name = name;      //TODO этому примитиву name присваиваем значение name
         }
-        public Duck(String name, String s) {         //TODO - в классе Duck вызываем две переменные String name и String s
+        public Duck(String name, String s) {         // TODO - в классе Duck вызываем две переменные String name и String s
             this.name = name + s;              //TODO -  в name пишем name и s
         }
 
         /* МЕТОДЫ */
-        public String toString() {   //TODO
+        public String toString() {   // TODO
             return name;             //TODO - возвращает name
         }
 
@@ -75,11 +74,11 @@ public class Solution {
         }
 
        /* public String toString() {
-            return "Gav";              //TODO
+            return "Gav";
         } */
     }
 
-/*    public static String pov(int n) {
+    /*public static String pov(int n) {
         return n*2 + "";
     }*/
 

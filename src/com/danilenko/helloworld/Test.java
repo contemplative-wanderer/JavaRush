@@ -9,6 +9,7 @@ public class Test {
         System.out.println(horse1);
         System.out.println(sivka);
     }
+
     public static String pov(int n) {
         return n*2 + "";
     }

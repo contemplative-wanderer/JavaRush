@@ -1,9 +1,7 @@
 package com.danilenko.helloworld;
 
-import java.util.Date;
 
-
-/*public class Duck {
+public class Duck {
         private String name;
 
         public Duck(String name) {
@@ -20,4 +18,3 @@ import java.util.Date;
         }
 }
 
- */

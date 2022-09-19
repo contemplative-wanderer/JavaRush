@@ -13,22 +13,4 @@ public class Progon {
 
         System.out.println(a + b + c);
     }
-
-    public static void main2(String[] args) {
-        Scanner console = new Scanner(System.in);
-        String a = console.nextLine();
-        int b = console.nextInt();
-
-        System.out.println(a + b);
-    }
-
-
-    public static void main1(String[] args) {
-
-            Scanner keyboard = new Scanner(System.in);
-            System.out.println("Name:");
-            String name = keyboard.nextLine();
-            System.out.println("Age:");
-            int age = keyboard.nextInt();
-        }
 }
