@@ -22,17 +22,14 @@ public class DoubleNumber {
             System.out.println("Number " + number1 + " not even");
         }
 
-
     }
 
     public static class Examination{
-
         public int number;
 
         public int toInteger(){
             return number;
         }
-
 
     }
 
