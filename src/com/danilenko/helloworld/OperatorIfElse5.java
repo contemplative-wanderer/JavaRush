@@ -14,7 +14,7 @@ public class OperatorIfElse5 {
         double b = b0.nextDouble();
 
         if(b % a == 0){
-            System.out.println("\n" + "a is 'a' divisor of 'b'");
+            System.out.println("\n" + "'a' is a divisor of 'b'");
         }
         else{
             System.out.println("\n" + "'a' is not a divisor of 'b'");
