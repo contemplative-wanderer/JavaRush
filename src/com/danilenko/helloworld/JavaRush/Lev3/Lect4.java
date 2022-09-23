@@ -13,6 +13,7 @@ public class Lect4 {
         Scanner age0 = new Scanner(System.in);
         System.out.print("Enter the person's age: ");
         int age = age0.nextInt();
+        System.out.println("");
 
         if(age < 18) {
             System.out.println("Go to school");
