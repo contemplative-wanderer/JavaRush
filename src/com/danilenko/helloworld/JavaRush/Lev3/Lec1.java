@@ -6,7 +6,7 @@ import java.lang.*;
 /*Составить программу которая принимает на вход возраст и
 определяет, нужно в школу или уже пора в институт.*/
 
-public class Lect4 {
+public class Lec1 {
 
     public static void main(String[] args) {
 
@@ -26,5 +26,4 @@ public class Lect4 {
         }
 
     }
-
 }
