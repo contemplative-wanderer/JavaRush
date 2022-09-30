@@ -2,6 +2,11 @@ package com.danilenko.helloworld;
 
 import java.util.Scanner;
 
+/*
+Написать программу, которая считывает с клавиатуры два числа и выводит на экран большее из них.
+        Если числа одинаковые, то выводится перевое число равно второму.
+*/
+
 public class OperatorIfElse3 {
 
     public static void main(String[] args) {
