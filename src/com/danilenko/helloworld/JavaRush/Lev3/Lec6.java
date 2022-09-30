@@ -23,7 +23,7 @@ public class Lec6 {
         int max1 = a;
 
         if(b > max1){
-            max = b;
+            max1 = b;
         }
         if (c > max1){
             max1 = c;
