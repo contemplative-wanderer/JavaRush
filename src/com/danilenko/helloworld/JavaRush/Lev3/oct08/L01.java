@@ -7,7 +7,7 @@ public class L01 {
 
     public static void main(String[] args) {
 
-        int i = 0;
+        int i;
         int n = 0;
 
         do {
@@ -16,6 +16,5 @@ public class L01 {
         } while (i < 0);
         n--;
         System.out.println(n);
-        System.out.println(i);
     }
 }
