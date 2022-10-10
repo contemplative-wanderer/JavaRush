@@ -14,10 +14,9 @@ public class L02 {
 
     public static void main(String[] args) {
 
-        double glass = 0.5;
-
         var scanner = new Scanner(System.in);
         boolean crazy = scanner.nextBoolean();
+        double glass = 0.5;
         int g;
         int gl;
 
