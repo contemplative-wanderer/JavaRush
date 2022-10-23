@@ -30,7 +30,7 @@ public class L01 {
                 s = s + k;
                 sr = s / j;
             } else if (scanner.hasNextLine()) {
-                System.out.println("Vvodite chisla!");
+                System.out.println("Vvodite chislo!");
                 break;
             }
         }
