@@ -1,6 +1,6 @@
 package com.danilenko.helloworld.JavaRush.Lev3.oct26;
 
-/*Заполнение массива из 10 чисел числами от 10 до 1*/
+/*Заполнение массива из 10 чисел числами от 10 до 1.*/
 
 import java.util.Arrays;
 
