@@ -17,17 +17,14 @@ public class L01 {
 
     public static void main(String[] args) {
 
-        String[] s = strings;
-
         for (int i = 0; i < strings.length; i++) {
 
             if (i % 2 != 0) {
                 strings[i] = ODD;
-            }else{
+            } else {
                 strings[i] = EVEN;
             }
         }
         System.out.println(Arrays.toString(strings));
-        System.out.println(Arrays.toString(s));
     }
 }
