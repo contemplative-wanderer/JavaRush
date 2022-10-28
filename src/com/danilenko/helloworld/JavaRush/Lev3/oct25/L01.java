@@ -7,6 +7,8 @@ package com.danilenko.helloworld.JavaRush.Lev3.oct25;
 В классе Solution должна быть публичная статическая переменная strings типа String[], проинициализированная массивом размером 5 элементов.
 Метод main(String[]) должен заполнять массив согласно условию.*/
 
+import java.util.Arrays;
+
 public class L01 {
 
     public static final String ODD = "Нечётный";
@@ -15,6 +17,8 @@ public class L01 {
 
     public static void main(String[] args) {
 
+        String[] s = strings;
+
         for (int i = 0; i < strings.length; i++) {
 
             if (i % 2 != 0) {
@@ -22,8 +26,8 @@ public class L01 {
             }else{
                 strings[i] = EVEN;
             }
-            System.out.print("index = " + i);
-            System.out.println(" value = " + strings[i]);
         }
+        System.out.println(Arrays.toString(strings));
+        System.out.println(Arrays.toString(s));
     }
 }
