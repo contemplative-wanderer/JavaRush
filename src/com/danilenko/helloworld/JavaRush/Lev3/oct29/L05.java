@@ -11,7 +11,6 @@ public class L05 {
 
         String[] str = new String[]{"Hello", "Yes", "Also", "Soccer", "Slip", "Bay", "Sorry", "What", "Where", "SQL"};
         Arrays.sort(str);
-        String str1 = Arrays.toString(str);
-        System.out.println(str1);
+        System.out.println(Arrays.toString(str));
     }
 }
