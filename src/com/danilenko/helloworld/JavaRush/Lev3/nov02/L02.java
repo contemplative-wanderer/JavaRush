@@ -22,7 +22,6 @@ public class L02 {
     }
 
     public static void printPersonInfo(String name, String surname, String meal) {
-
         System.out.println("Краткое досье:");
         System.out.println("Имя : " + name);
         System.out.println("Фамилия : " + surname);
