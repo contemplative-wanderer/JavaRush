@@ -37,15 +37,15 @@ public class L01Iphone {
 
         L01Iphone l01Iphone = (L01Iphone) obj;
 
-        if (this.price == 0){
+        if (this.price == 0) {
             return false;
         }
 
-        if (this.color == null){
+        if (this.color == null) {
             return l01Iphone.color == null;
         }
 
-        if (this.model == null){
+        if (this.model == null) {
             return l01Iphone.model == null;
         }
 
