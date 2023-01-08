@@ -15,20 +15,21 @@ public class Artifact {
     int century;
     static int count = 0;
 
-    public Artifact(){
+    public Artifact() {
         count++;
         this.name = "находка № " + count;
     }
-    public Artifact(int number){
+
+    public Artifact(int number) {
         this.number = number;
     }
 
-    public Artifact(int number, String name){
+    public Artifact(int number, String name) {
         this.number = number;
         this.name = name;
     }
 
-    public Artifact(int number, String name, int century){
+    public Artifact(int number, String name, int century) {
         this.number = number;
         this.name = name;
         this.century = century;
