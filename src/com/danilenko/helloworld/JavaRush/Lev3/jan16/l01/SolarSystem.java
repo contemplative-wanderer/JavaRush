@@ -1,6 +1,7 @@
 package com.danilenko.helloworld.JavaRush.Lev3.jan16.l01;
 
 public class SolarSystem {
+
     public static long age = 4_568_200_000L;
 
     public static int planetsCount = 8;
