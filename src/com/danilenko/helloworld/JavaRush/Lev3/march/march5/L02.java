@@ -17,7 +17,6 @@ package com.danilenko.helloworld.JavaRush.Lev3.march.march5;
 
 import java.util.ArrayList;
 
-
 public class L02 {
 
     public static void main(String[] args) {
